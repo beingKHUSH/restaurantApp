@@ -1,0 +1,53 @@
+.margin-v-10 {
+  margin: 10px 0;
+}
+.restaurant-card {
+  background: white;
+  padding: 10px;
+  margin: 5px 0;
+  color: #666262;
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+.main-container p {
+  color: #666262;
+  font-size: 18px;
+}
+.rating-container {
+  box-shadow: 0 0 2px 2px #f7f7f7;
+}
+.rating-container p {
+  font-size: 13px;
+  text-align: center;
+  padding: 5px 10px;
+}
+.rating-container p:nth-child(1) {
+  border-bottom: 1px solid #f7f7f7;
+  background: orange;
+  color: white;
+}
+.cuisine-container p {
+  text-transform: uppercase;
+  margin: 5px 0;
+  padding: 5px 0;
+  color: gray;
+  font-size: 13px;
+}
+.cuisine-container ul {
+  color: orange;
+  list-style: none;
+  display: flex;
+}
+.cuisine-container li {
+  padding: 0 10px 0 0;
+}
+.cost-container {
+  composes: margin-v-10;
+}
+.cost-container span {
+  font-size: 13px;
+  color: #765948;
+  padding-right: 5px;
+}

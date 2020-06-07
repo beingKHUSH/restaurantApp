@@ -1,0 +1,11 @@
+.header {
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  vertical-align: center;
+}
+.logo {
+  color: orange;
+  font-size: 25px;
+  padding: 10px;
+}

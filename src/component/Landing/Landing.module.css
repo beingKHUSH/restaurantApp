@@ -1,0 +1,80 @@
+.padding-v-130 {
+  padding: 130px 0;
+}
+.background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../asset/images/intro-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+}
+.white-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../asset/images/pattern.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  max-height: 100vh;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2.5;
+  height: calc(100vh - 100px);
+}
+.landing h1 {
+  color: white;
+  font-size: 30px;
+}
+.landing p {
+  color: white;
+  font-size: 18px;
+}
+.btn {
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  color: white;
+  background: orange;
+  border: 2px solid white;
+  border-radius: 30px;
+  margin: 20px 0;
+  text-shadow: 1px 1px 1px grey;
+  cursor: pointer;
+  transition: ease-in;
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 30px;
+  margin: 20px 0;
+  text-shadow: 1px 1px 1px grey;
+  cursor: pointer;
+}
+.btn span::after {
+  content: "";
+  border-top: 7px solid transparent;
+  display: inline-block;
+  margin: 0 10px;
+  border-right: 7px solid transparent;
+  border-left: 7px solid white;
+  border-bottom: 7px solid transparent;
+}
+.result-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #6b64645c;
+  min-height: calc(100vh - 120px);
+}
